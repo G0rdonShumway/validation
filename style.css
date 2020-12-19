@@ -1,0 +1,47 @@
+body {
+    font-family: monospace;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.wrapper {
+    padding: 20px;
+    background-color: #ccc;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    max-width: 320px;
+    flex-direction: column;
+}
+
+label {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+}
+
+input,
+input:focus,
+input:active {
+    outline: none;
+    border: inherit;
+    padding: 5px;
+}
+
+svg {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    height: 14px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
